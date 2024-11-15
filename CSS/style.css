@@ -625,7 +625,7 @@ html {
 
 /*deal*/
 
-.deal .row {
+.aboutUs .row {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -633,48 +633,48 @@ html {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
 }
 
-.deal .row .image {
+.aboutUs .row .image {
     flex: 1 1 40rem;
 }
 
-.deal .row .image img {
+.aboutUs .row .image img {
     width: 100%;
 }
 
-.deal .row .content {
+.aboutUs .row .content {
     flex: 1 1 30rem;
 }
 
-.deal .row .content .title {
+.aboutUs .row .content .title {
     font-size: 3rem;
     padding-left: 2rem;
     color: #333;
 }
 
-.deal .row .content p {
+.aboutUs .row .content p {
     font-size: 1.5rem;
     color: #666;
     padding: 2rem 2rem;
 }
 
-.deal .row .content .count-down {
+.aboutUs .row .content .count-down {
     display: flex;
     padding: 2rem 2rem;
     gap: 1.5rem;
 }
 
-.deal .row .content .count-down .box {
+.aboutUs .row .content .count-down .box {
     width: 9rem;
     text-align: center;
     border: .1rem solid rgba(0, 0, 0, .3);
 }
 
-.deal .row .content .count-down .box h3 {
+.aboutUs .row .content .count-down .box h3 {
     font-size: 4rem;
     color: #333;
 }
 
-.deal .row .content .count-down .box span {
+.aboutUs .row .content .count-down .box span {
     font-size: 1.7rem;
     color: #fff;
     display: block;
@@ -682,7 +682,7 @@ html {
     padding: .5rem;
 }
 
-.deal .row .content .btn {
+.aboutUs .row .content .btn {
     margin-left: 2rem;
 }
 
