@@ -4,94 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tenun Botof</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" 
-        rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" 
-    />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="images/round_logo.webp" type="image/x-icon" />
+
+   <!-- <link rel="shortcut icon" href="images/tenun_logo.webp" type="image/x-icon" /> -->
+
 </head>
 <body>
-    <section id="main">
-        <div class="container">
-            <nav>
-            <img src="images/round_logo.webp" alt="" style="width: 100px;" class="logo"/>
-            <ul class="main-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a class="btn btn-donation" href="#"> Donate <3</a></li>
-                </ul>
-                <img src="./images/menu.svg" alt="" class="menu-btn">
-         </nav>
-          
-        </div>    
-    <!-- Hero -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-heading text-xxl text-center">
-                    Menyelami Kearifan Lokal dalam Setiap Serat
-                </h1>
-                
-              
-            </div>
-        </div>
-       
-    </section>
-    <!-- Traditional Image -->
-    <section class="traditional">
-        <div class="container-sm">
-            <h2 class="image-heading text-md text-center">  Here are some products
-            </h2>
-            <div class="traditional-image">
-                <a href="#">
-                    <img src="images/kupang_ppl.webp" alt="traditional" />
-                </a>
-            </div>
-            
-        </div>
-    </section>
+<!-- header section starts -->
+<header>
+    <div class="header-1">
+        <span> follow us: </span>
+        <a href="#" class="fab fa-instagram"></a>
+    </div>
+    <div class="call">
+        <span> call us: </span>
+        <a href="tel:062-000-00000000">062-0000-00000000</a>
+    </div>
 
-    
-    <script src="js/main.js">
-    </script>
-    <script>
-        const navBtn = document.querySelector(".menu-btn");
-        const navList = document.querySelector(".main-menu");
+    <div class="header-2">
+        <a  href="images/tenun_logo.webp" type="image/x-icon"></i>CHO<span>CO</span>-CHO<span>CO</span></a>
+        <form action="" class="serach-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="fas fa-search"></label>
 
-        navBtn.addEventListener("click", function () {
-            navList.classList.toggle("active");
-        });
-    </script>
+        </form>
+
+</header>
+
+
+<!-- header section ends -->
+
+
+<script src="js/script.js"></script>
 </body>
 </html>
-
-
-<!--  <h2 class="hero-heading text-xxl"> 
-                    Places to Visit
-                </h2>
-                <ul>
-                    <li>Baliana Beach</li>
-                    <li>Tabolong Beach</li>
-                    <li>Oetune</li>
-                    <li>Goa Kristal Bolok</li>
-                </ul>
-                <h2 class="hero-heading text-xxl">
-                    Local Foods to Try
-                </h2>
-                <ul>
-                    <li>Kopi O' - everything</li>
-                    <li>Ambuja - very cool location</li>
-                </ul>
-                <h2 class="hero-heading text-xxl">
-                    Tips for Travelers
-                </h2>
-                <p>Always carry cash, as many places do not accept credit cards.</p>
-                -->
