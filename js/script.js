@@ -59,7 +59,7 @@ document.querySelector('#cart-btn').onclick = () => {
 let swiper = new Swiper(".home-slider", {
 
     autoplay: {
-        delay: 3000,
+        delay: 7000,
         disableOnInteraction: false,
     },
     pagination: {
